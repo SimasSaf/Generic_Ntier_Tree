@@ -11,7 +11,6 @@ public class Branch
     }
 
     //The complexity is O(n) as we are traversing all the elements one time
-    // and also going up roughly half of the time
     public int getDepth()
     {
         while(branches.size() != 0)
